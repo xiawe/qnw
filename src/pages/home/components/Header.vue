@@ -57,12 +57,6 @@ export default {
             }
         }
     },
-    // mounted() {
-    //     console.log(
-    //     'This is current swiper instance object', this.mySwiper, 
-    //     'It will slideTo banners 3')
-    //     this.mySwiper.slideTo(3, 1000, false)
-    // },
 }
 </script>
 
@@ -70,8 +64,8 @@ export default {
     @import '~style/varible.styl'
     @import '../../../assets/iconfont/iconfont.css'
     .header
-        position fixed
-        top 0
+        // position fixed
+        // top 0
         .search-wrap
             position: relative
             display: flex
