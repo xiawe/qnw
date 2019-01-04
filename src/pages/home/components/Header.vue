@@ -49,7 +49,7 @@ export default {
         slideTab(index) {
             this.i = index
             var a = Math.floor(this.swiperSlides.length / 2)
-            // log(index, a)
+            log(index, a)
             if (index >= a) {
                 this.swiper.slideTo(a, 1000, false)
             } else if (index < a) {
@@ -64,8 +64,10 @@ export default {
     @import '~style/varible.styl'
     @import '../../../assets/iconfont/iconfont.css'
     .header
-        // position fixed
-        // top 0
+        z-index 99
+        position fixed
+        top 0
+        background-color #fff
         .search-wrap
             position: relative
             display: flex

@@ -2,8 +2,9 @@
     <div class="slide">
         <swiper :options="swiperOption">
             <swiper-slide v-for="slide in imgSlides" :key="slide.id">
-                {{ slide.id }}
-                <image :src="slide.img" class="slide-img" />
+                <a :href="slide.url">
+                    <img :src="slide.img" class="slide-img" />
+                </a>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -23,6 +24,7 @@ export default {
                     clickable: true
                 },
                 loop: true,
+                autoplay: true,
             },
             imgSlides: [{
                 id: 2120,
@@ -50,11 +52,16 @@ export default {
 <style lang="stylus" scoped>
     @import '~style/varible.styl'
     @import '../../../assets/iconfont/iconfont.css'
+
+    .slide >>> .swiper-pagination-bullet-active
+        background-color $greenColor
     .slide
         position relative
-        // margin-top 1.96rem
-        height 1.37rem
-        border 1px solid black
+        margin-top 1.96rem
+        overflow hidden
+        width 100%
+        height 0
+        padding-bottom 36.7%
         .slide-img
             width 100%
 </style>
