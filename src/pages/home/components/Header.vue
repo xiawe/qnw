@@ -28,14 +28,14 @@ export default {
             swiperOption: {
                 autoplay: false,
                 slidesPerView: 5,
-                spaceBetween: 20,   
+                spaceBetween: 20,  
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true
                 }                           
             },
             swiperSlides:['热门', '农药', '肥料', '农用品', '课程', '套餐'],
-            active: false,
+            // active: false,
             i: ''
         }
     },
@@ -103,14 +103,14 @@ export default {
         .sort
             position relative
             height 0.88rem
-            line-height 0.88rem
-            font-size: 0.28rem
-            font-weight: 500
-            text-align: center
-            color: #666666
             overflow hidden
             .single-choice
                 height 0.88rem
+                line-height 0.88rem
+                font-size: 0.28rem
+                font-weight: 500
+                text-align: center
+            color: #666666
             .active 
                 font-size: 0.36rem
                 font-weight: 900
