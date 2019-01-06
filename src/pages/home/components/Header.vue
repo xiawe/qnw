@@ -10,7 +10,7 @@
         <div class="sort">
             <swiper :options="swiperOption" ref="mySwiper">
                 <swiper-slide v-for="(slide, index) in swiperSlides" :key="slide.id">
-                    <div :class="[{ 'active': i == index }, 'single-choice']" @click="slideTab(index)">
+                    <div :class="[{'active': i == index}, 'single-choice']" @click="slideTab(index)">
                         {{ slide }}
                     </div>
                 </swiper-slide>
@@ -36,7 +36,8 @@ export default {
             },
             swiperSlides:['热门', '农药', '肥料', '农用品', '课程', '套餐'],
             // active: false,
-            i: ''
+            i: '',
+            show: false,
         }
     },
     computed: {
@@ -47,7 +48,9 @@ export default {
     },
     methods: {
         slideTab(index) {
+            // log('i == index', this.i, )
             this.i = index
+            log('i',this.i, index)
             var a = Math.floor(this.swiperSlides.length / 2)
             log(index, a)
             if (index >= a) {
@@ -104,6 +107,8 @@ export default {
             position relative
             height 0.88rem
             overflow hidden
+            .swiper-slide
+                max-width 15vw
             .single-choice
                 height 0.88rem
                 line-height 0.88rem
@@ -139,6 +144,8 @@ export default {
             height 0.88rem
             width 50vw
             margin-left 25vw
-
+    .current {
+        
+    }
 </style>
 
