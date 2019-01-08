@@ -34,7 +34,7 @@ export default {
                     clickable: true
                 }                           
             },
-            swiperSlides:['热门', '农药', '肥料', '农用品', '课程', '套餐'],
+            swiperSlides: ['热门', '农药', '肥料', '农用品', '课程', '套餐'],
             // active: false,
             i: '',
             show: false,

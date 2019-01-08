@@ -1,0 +1,89 @@
+{
+    "error": 0,
+    "data": {
+        "imgSlides": [{
+            "id": "2120",
+            "img": "https://oss-image.dfs168.com/aimages/20181226/0709e77a2a0cfc95fd22c4db72e02fa1.jpg",
+            "url": "http://tj.dfs168.com/tj/channel?id=6085"
+        }, {
+            "id": "2171",
+            "img": "https://oss-image.dfs168.com/aimages/20190102/cbdbea590843697c8f409f7e5ff0ca52.jpg",
+            "url": "http://tj.dfs168.com/tj/channel?id=6327"
+        }, {
+            "id": "2170",
+            "img": "https://oss-image.dfs168.com/aimages/20190102/1f8edf7fa8ac91b0fc5a85e0f8185904.jpg",
+            "url": "http://tj.dfs168.com/tj/channel?id=6322"
+        }],
+        "iconList": [{
+            "img": "https://oss-image.dfs168.com/aimages/20181228/53e0d7009f8cab29e420cb4062652d92.png",
+            "tag": "邀请有奖"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20181228/ab378b33f4cffd8450e28346a357b420.png",
+            "tag": "签到有礼"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20181228/40ba9b8fa3dc73202bc5b3baa941a48d.png",
+            "tag": "丰收社区"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20181228/41f50c711fdcc68155bfa5f99b4ec03e.png",
+            "tag": "丰收检测"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20190102/a4369a5ece6f98dfb631cebe313bc85b.png",
+            "tag": "丰创严选"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20190102/989e45a8e4152d3922014e9a1e806e69.png",
+            "tag": "丰收定制"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20190102/c84380a92d0a1e5d73c0243859411be8.png",
+            "tag": "方案套餐"
+        }, {
+            "img": "https://oss-image.dfs168.com/aimages/20190102/5e519e66d2f51551fc91ccc93f2ef642.png",
+            "tag": "清仓热卖"
+        }],
+        "goodsList": [{
+            "id": 10939,
+            "spu": 102654,
+            "name": "【丰创严选】蜜乐图中微量元素肥料20kg/袋 20kg*25袋",
+            "gc_id": 2442,
+            "storage": 7,
+            "price_sales": "3250.00",
+            "price_market": "4000.00",
+            "icon_name": "新品",
+            "image": "https://oss-image.dfs168.com/store/goods/20181226/d8a1eca82806192de86e96d4376eb6aa.jpg",
+            "promotion_tags": []
+        }, {
+            "id": 10919,
+            "spu": 102670,
+            "name": "【大丰收定制】伊丰盾生物有机肥40kg 40kg*25袋",
+            "gc_id": 2445,
+            "storage": 93,
+            "price_sales": "2500.00",
+            "price_market": "3200.00",
+            "icon_name": "新品",
+            "image": "https://oss-image.dfs168.com/store/goods/20181211/f83d1dd1bad3126948ab2ea22a2acd78.jpg",
+            "promotion_tags": []
+        }, {
+            "id": 10580,
+            "spu": 102147,
+            "name": "大连亚农威帝中微量元素肥2.5kg 2.5kg*1袋",
+            "gc_id": 2442,
+            "storage": 7638,
+            "price_sales": "60.00",
+            "price_market": "80.00",
+            "icon_name": "",
+            "image": "https://oss-image.dfs168.com/store/goods/20190103/dbaed06a23d64e669846ecd17ea78ed7.png",
+            "promotion_tags": []
+        }, {
+            "id": 10278,
+            "spu": 102285,
+            "name": "【大丰收定制】磷酸二氢钾1kg 1kg*1袋",
+            "gc_id": 2423,
+            "storage": 34353,
+            "price_sales": "16.00",
+            "price_market": "25.00",
+            "icon_name": "",
+            "image": "https://oss-image.dfs168.com/store/goods/20181024/10f92e907d23363fe37c8efba008ac0d.jpg",
+            "promotion_tags": ["示范"]
+        }]
+
+    }
+}
