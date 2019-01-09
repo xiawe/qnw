@@ -34,11 +34,11 @@ export default {
         }
     },
     methods: {
-        getHomeInfo() {
+        apiHomeInfo() {
             axios.get('/api/index.json')
-                .then(this.getHomeInfoSucc)
+                .then(this.homeCallback)
         },
-        getHomeInfoSucc(res) {
+        homeCallback(res) {
             var res = res.data
             if (res.error == 0) {
                 var data = res.data
@@ -50,7 +50,7 @@ export default {
         }
     },
     mounted() {
-        this.getHomeInfo()
+        this.apiHomeInfo()
     }
 }
 </script>
