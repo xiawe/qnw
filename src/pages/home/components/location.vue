@@ -4,7 +4,7 @@
             <div class="location-wrap">
                 <i class="icon iconfont icon-weizhi"></i>
                 <router-link to="/city">
-                    <div class="location-text">乌鲁木齐</div>
+                    <div class="location-text">{{ this.$store.state.currentCity }}</div>
                 </router-link>
             </div>
             <div class="tip-wrap">

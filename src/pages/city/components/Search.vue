@@ -1,11 +1,13 @@
 <template>
-    <div class="search">
-        <router-link to="/">
-            <i class="icon iconfont icon-fanhui"></i>
-        </router-link>
-        <div class="search-wrap">
-            <i class="icon iconfont icon-sousuokuang-sousuo"></i>
-            <input type="text" class="search-input" placeholder="搜索城市" /> 
+    <div class="search-wrap">
+        <div class="search">
+            <router-link to="/">
+                <i class="icon iconfont icon-fanhui"></i>
+            </router-link>
+            <div class="search-wrap">
+                <i class="icon iconfont icon-sousuokuang-sousuo"></i>
+                <input v-model="keyword" type="text" class="search-input" placeholder="搜索城市" /> 
+            </div>
         </div>
     </div>
 </template>
