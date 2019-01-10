@@ -70,6 +70,7 @@ export default {
         margin-top 0.9rem
         height 95vh
         overflow: hidden
+        position relative
     .list 
         .single-wrap
             .title
@@ -91,8 +92,8 @@ export default {
                     border-radius 0.8rem
                     border 1px solid #e5e5e5
     .alphabet
-        z-index 9
-        position fixed
+        z-index 1
+        position absolute
         top 50%
         right 0
         transform translateY(-50%)

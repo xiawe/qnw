@@ -85,7 +85,7 @@ export default {
                 font-size: 0.15rem
             .search
                 margin: 0.2rem 0.24rem 0 0.24rem
-                width: 5.46rem
+                width: 70vw
                 height: 0.64rem
                 padding-left: 0.68rem
                 border-radius: 0.08rem

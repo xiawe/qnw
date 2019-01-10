@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <city-search></city-search>
+    <div class="city-wrap">
+        <city-search :cities="cityArr"></city-search>
         <city-list :hotCities="hotCities" :cities="cities"></city-list>
     </div>
 </template>
@@ -21,6 +21,7 @@ export default {
         return {
             hotCities: '',
             cities: '',
+            cityArr: '',
         }
     },
     methods: {
@@ -30,11 +31,20 @@ export default {
         },
         cityCallback(res) {
             res = res.data
-            if (res.ret) {
-                var data = res.data
-                this.hotCities = data.hotCities
-                this.cities = data.cities
+            if (!res.ret) {
+                return
             }
+            var data = res.data
+            this.hotCities = data.hotCities
+            this.cities = data.cities
+            var c = data.cities
+            var keys = Object.keys(c)
+            var cityArr = []
+            for (let i = 0; i < keys.length; i++) {
+                // log(i, c[keys[i]])
+                cityArr = cityArr.concat(c[keys[i]])
+            }
+            this.cityArr = cityArr
         }
 
     },
@@ -45,6 +55,5 @@ export default {
 </script>
 
 <style>
-
 </style>
 
