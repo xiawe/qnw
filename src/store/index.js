@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
     state: {
-        currentCity: '北京',
+        currentCity: localStorage.city || '北京',
     },
     // actions: {
     //     changeCurrentCity(ctx, city) {
@@ -15,6 +15,7 @@ const store = new Vuex.Store({
     mutations: {
         changeCurrentCity(state, city) {
             state.currentCity = city
+            localStorage.city = city
         }
     }
 })
